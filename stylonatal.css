@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #14733592,#11592a8e,#83a60393, #f2ad2e72, #a61103af );
+    margin: 0px;
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to right, #14733592,#11592a8e,#83a60393, #f2ad2e72, #a61103af );
+    height: auto;
+    padding: 1px 0px 0px 0px;
+    border: auto;
+    margin: auto;
+}
+
+nav{
+    font-family: fantasy;
+   text-decoration: dashed;
+   margin: 7px;
+   color:rgb(86, 25, 25); 
+}
+
+nav > a{
+    font-size: 2em;
+    text-decoration: none;
+    color:rgb(86, 25, 25);
+    margin: 5px;
+    padding-left: 5px;
+    border: 10px ;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    background-color: #11592a38;
+    border-radius:10px ;
+    box-shadow:5px 5px 15px #175f0c93;
+    width: 1150px;
+    padding: 10px;
+    margin: auto;
+}
+
+article{
+
+}
+
+aside{
+    background-color: #a61103db; 
+    height: 200px ; 
+    width: 200px;
+    border: 10px #147335c7;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    outline: 3px dashed #11592ab0 ;
+}
+
+
+section{
+
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: fantasy;
+    color: rgb(133, 29, 29);
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    color:darkgreen;
+    font-size: 3em;
+}
+
+p{
+    text-align: justify;
+}
+.video{
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+}
+.audio{
+    background-color: #a61103db; 
+    height: 10px ; 
+    width: 50px;
+    padding: 3px;
+    margin: 5px 5px 15px 5px;
+    outline: 3px dashed #11592ab0 ;
+}
+.posicao{
+    text-align: right;
+}
+
+footer{
+    font-family: fantasy;
+    font-size: 2em;
+    background-image: linear-gradient(to right, #14733592,#11592a8e,#83a60393, #f2ad2e72, #a61103af );
+    height: 30px;
+    text-align: center;
+    padding: 1px 0px 5px 0px;
+    border: auto;
+    margin: auto;
+}
